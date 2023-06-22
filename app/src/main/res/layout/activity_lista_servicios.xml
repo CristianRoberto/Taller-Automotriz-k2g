@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo1"
+    android:layout_height="match_parent"
+    tools:context=".ListaServicios">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:layout_marginTop="28dp"
+        android:padding="5dp"
+        android:text="Servicios Disponibles"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlanco"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="534dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="59dp">
+
+        <ListView
+            android:id="@+id/Lista"
+            android:layout_width="333dp"
+            android:layout_height="421dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ListView>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="107dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="28dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/k2g" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/corona"
+
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+
+    <ImageView
+        android:layout_width="319dp"
+        android:layout_height="154dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+
+
+        android:src="@drawable/principal" />
+
+
+
+
+
+    <EditText
+        android:id="@+id/etcorreo"
+        android:layout_width="309dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_usuario"
+
+        android:hint="Ingresar Correo"
+        android:textColorHint="@color/cardview_light_background"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/etUserPassword"
+        android:layout_width="309dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_seguridad"
+        android:textColorHint="@color/cardview_light_background"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="312dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorBlanco"
+        android:text="INICIO DE SESION"
+        android:textColor="@color/colorNegro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etcorreo"
+        app:layout_constraintVertical_bias="0.556" />
+
+    <TextView
+        android:id="@+id/tvRegister"
+        android:layout_width="312dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:drawable/btn_radio"
+        android:ems="100"
+        android:gravity="center"
+        android:text="Create New Register "
+        android:textColor="@color/cardview_light_background"
+        android:textSize="19dp"
+
+         />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:visibility="gone"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="99dp"
+        android:layout_height="62dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="45dp"
+        android:padding="3dp"
+
+        android:src="@drawable/k2g" />
+
+</LinearLayout>
+

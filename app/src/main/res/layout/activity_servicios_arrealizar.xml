@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ServiciosArrealizar">
+
+
+    <TextView
+        android:id="@+id/descripcion"
+
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:padding="5dp"
+        android:text="DESCREPCION DE LA APLICACION"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/disponible"
+
+        android:layout_width="227dp"
+        android:layout_height="31dp"
+        android:padding="5dp"
+        android:text="Servicios Disponibles"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pintado"
+
+        android:layout_width="227dp"
+        android:layout_height="31dp"
+        android:padding="5dp"
+        android:text="Pintado Automotriz"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/llantas"
+
+        android:layout_width="227dp"
+        android:layout_height="31dp"
+        android:padding="5dp"
+        android:text="Cambio LLanta"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/cambio"
+
+        android:layout_width="227dp"
+        android:layout_height="31dp"
+        android:padding="5dp"
+        android:text="Cambio aceite"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+
+        android:layout_width="227dp"
+        android:layout_height="31dp"
+        android:padding="5dp"
+        android:text="Servicios Disponibles"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17dp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/IniciarSecionServicios"
+        android:layout_width="277dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Iniciar Secion o Registrarse"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</LinearLayout>
